@@ -1,0 +1,122 @@
+.div_class{
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.img_class{
+    height:8rem;
+    padding:10px;
+}
+
+figcaption{
+    font-size:20px;
+    color:gray;
+}  
+figcaption:hover{
+    color:lightblue;
+}
+
+.Add_items{
+    margin-top:25px;
+}
+
+.add-btn{
+    margin-left:-1.5rem;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    width:20rem;
+    border-radius: 0.5rem;
+}
+
+.button_item{
+    margin-top:30px;
+}
+
+.button_item_child{
+    height:35px;
+    width:6rem;
+    cursor: pointer;
+}
+
+.button_item_child:hover span{
+    display: none;
+}
+
+.button_item_child:hover::before{
+    content: "Remove All";
+}
+
+.button_item_child:hover{
+    background-color:rgb(111, 213, 111);
+    transition: 0.1s;
+}
+
+.showItems {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.eachItem {
+  background: #fff;
+  padding: 1.2rem 1rem;
+  border-radius: 0.5rem;
+  margin-left: 38rem;
+  margin-right: 37rem;
+  background: rgb(85, 41, 220);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  height: 0px;
+}
+
+.eachItem:hover {
+  background: rgb(249, 249, 252);
+  color: rgb(85, 41, 220);
+}
+
+.showItems .eachItem h3 {
+  padding-left: 1rem;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.todo-btn {
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa-trash-alt,
+.fa-edit {
+  margin-left: -3.5rem;
+  margin-right: -5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  /* color: rgb(251, 251, 251); */
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  /* font-size: 2rem; */
+  
+}
+.fa-plus:hover{
+    color:rgb(15, 246, 15);
+}
+
+.fa-trash-alt:hover{
+    color:red;
+}
+
+.fa-edit {
+    margin-left: -3.5rem;
+}
+
+.fa-edit:hover{
+    color:rgb(17, 244, 17);
+}
+
+ 
